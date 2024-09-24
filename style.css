@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: #BF0202;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'kalam';
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    
+}
+
+
+nav img {
+    margin: 10px;
+    height: 30px;
+    margin-left: 20px;
+
+}
+
+
+nav div a {
+    background-color: #BF0202;
+    color: black;
+    border: 0px;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+
+
+}
+
+nav .navbar {
+    display: none;
+    flex-direction: column;
+
+    width: 100%;
+    position: sticky;
+    top: 58px;
+    text-decoration: none;
+    font-family: 'kalam';
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+
+}
+
+.navbar a {
+    color: white;
+    font-size: 50px;
+}
+
+
+
+
+h1,
+h2,
+h4 {
+    font-family: 'kalam';
+    font-weight: 300;
+}
+
+
+
+
+
+
+header {
+    padding: 10px;
+    margin-left: 100px;
+    text-decoration: underline;
+    font-family: 'kalam';
+
+}
+
+
+.banniere {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+    background-image: url("img/vue-delicieux-repas-pret-emploi_23-2151431806.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .25);
+    height: 850px;
+}
+
+.banniere div {
+    margin: 10vw;
+}
+
+.banniere h1 {
+    text-align: center;
+    color: white;
+
+    font-family: 'kalam';
+    font-size: 30px;
+}
+
+.banniere h2 {
+    text-align: center;
+    color: white;
+
+    font-family: 'kalam';
+    font-size: 20px;
+}
+
+.banniere a {
+    background-color: rgba(83, 148, 18, 0.685);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: kalam;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.categorieplat1 {
+
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    width: 40vw;
+    height: 20vw;
+    justify-content: center;
+    background-image: url("img/food-content-creator-filming-variety-dishes-upload-internet.jpg");
+    background-size: cover;
+
+
+}
+
+.categorieplat2 {
+
+    display: flex;
+
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 40vw;
+    height: 20vw;
+    justify-content: center;
+    background-image: url("img/italian-pizza-with-chicken-salami-zucchini-tomatoes-herbs.jpg");
+    background-size: cover;
+
+
+}
+
+.categorieplat3 {
+
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 40vw;
+    height: 20vw;
+    justify-content: center;
+    background-image: url("img/AdobeStock_217439689-2-min-1024x683.webp");
+    background-size: cover;
+
+
+}
+
+.categorieplat4 {
+
+    display: flex;
+    margin-bottom: 40px;
+
+    flex-direction: column;
+    width: 40vw;
+    height: 20vw;
+    justify-content: center;
+    background-image: url("img/©-gni-normandie.jpg");
+    background-size: cover;
+
+
+}
+
+.categorietotal h1 {
+    text-align: center;
+    color: white;
+    font-family: 'kalam';
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, .60);
+
+
+}
+
+
+.categorietotal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.avis {
+    background-color: black;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.avis header {
+    color: white;
+}
+
+.avis1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.avis div {
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5vw;
+    margin: 1vw;
+
+}
+
+.avis h3 {
+    color: rgb(233, 233, 37);
+}
+
+footer {
+    display: flex;
+
+    justify-content: space-around;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+footer img {
+    height: 50px;
+    margin: 10px;
+}
+
+footer article {
+
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+
+}
+
+footer div {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu2 {
+    display: none;
+}
+
+@media screen and (max-width :720px) {
+
+
+    header {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .categorietotal {
+        flex-direction: column;
+    }
+
+    .categorieplat1 {
+        margin: 0;
+        height: 35vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat2 {
+        margin: 0;
+        height: 35vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat3 {
+        margin: 0;
+        height: 35vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat4 {
+        margin: 0;
+        height: 35vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .avis1 {
+        flex-direction: column;
+        
+
+    }
+
+    .avis1 div {
+        width: 80vw;
+       
+    }
+
+    .avis {
+
+        height: 100%;
+    }
+
+    .avis1 {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu2 {
+        display: block;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .banniere {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .50);
+
+
+    }
+
+    nav .navbar a {
+        margin: 0;
+        background-color: rgba(0, 0, 0, .60);
+    }
+
+}
+
+@media screen and (max-width :1000px) {
+    header {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .categorietotal {
+        flex-direction: column;
+    }
+
+    .categorieplat1 {
+        margin: 0;
+        height: 30vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat2 {
+        margin: 0;
+        height: 30vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat3 {
+        margin: 0;
+        height: 30vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .categorieplat4 {
+        margin: 0;
+        height: 30vw;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .avis1 {
+        margin-right: 20px;
+        flex-direction: row;
+
+
+    }
+
+    .avis {
+
+        height: 100%;
+
+    }
+
+    .avis img {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        padding: 20px;
+
+        flex-wrap: wrap;
+    }
+
+}

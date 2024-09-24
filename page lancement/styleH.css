@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+nav{
+    background-color: #BF0202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    margin: 0px;
+    height: 40px;
+    padding: 10px;
+    
+    
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'kalam';
+    font-weight: 300;
+}
+
+.banniere {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+    background-image: url("img/vue-delicieux-repas-pret-emploi_23-2151431806.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .25);
+   
+}
+
+.banniere div {
+    margin: 8vw;
+}
+
+.banniere h1 {
+    text-align: center;
+    color: white;
+
+    font-family: 'kalam';
+    font-size: 30px;
+}
+
+.banniere h2 {
+    text-align: center;
+    color: white;
+
+    font-family: 'kalam';
+    font-size: 20px;
+}
+
+#countdown {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+body{
+    margin: 0;
+    justify-content: center;
+}
+
+footer {
+    
+
+    justify-content: space-around;
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+footer img {
+    height: 50px;
+    margin: 10px;
+}
+
+footer article {
+
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-right:100px;
+
+}
+
+footer div {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu2 {
+    display: none;
+}
+
+@media screen and (max-width :720px) {
+
+
+  
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+    .banniere {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .50);
+
+
+    }
+    footer div {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width :1000px) {
+    header {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    footer {
+        padding: 20px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    footer article {
+
+       
+        margin-right:0px;
+    
+    }
+
+}
